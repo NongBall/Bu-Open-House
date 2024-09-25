@@ -1,0 +1,61 @@
+.bg-green {
+    background-color: #04b461;
+  }
+  
+  .absolute-img {
+    position: absolute;
+    top: 50%;
+    right: -5%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: flex-end;
+  
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+  
+  .over-flow {
+    @media (max-width: 600px) {
+      font-size: 52px !important;
+    }
+  }
+  
+  .badge-certificate {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 12px;
+    padding: 8px 12px;
+    font-weight: 700;
+    max-width: 50%;
+  }
+  
+  
+  @media (max-width: 1280px) {
+    .badge-certificate {
+      margin-bottom: 12px;
+      max-width: 100%;
+      width: auto;
+    }
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .modal-header {
+    align-items: flex-start;
+  }
+  
+  .btn-close {
+    filter: brightness(0) invert(1);
+  }
+  
+  .fs-14 {
+    font-size: 14px;
+    margin: 0px;
+  }
+  

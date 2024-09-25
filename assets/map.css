@@ -1,0 +1,15 @@
+.route h1 p {
+    font-size: 64px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  .route-container p {
+    font-size: 18px;
+    color: #ffffff;
+  }
+  
+  .route-container li::marker {
+    color: white;
+  }
+  
